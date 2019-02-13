@@ -1,0 +1,38 @@
+% Based on: http://people.stern.nyu.edu/padamopo/blog/2013-02-10-latex-template.html
+
+\DeclareOptionBeamer{compress}{\beamer@compresstrue}
+\ProcessOptionsBeamer
+
+\mode<presentation>
+
+%\useoutertheme[footline=authortitle]{miniframes}
+\usecolortheme{beaver}
+%\usecolortheme{orchid}
+\useinnertheme{rounded}
+\useoutertheme[subsection=false,footline=authortitle]{miniframes}   
+
+\setbeamerfont{block title}{size={17}}
+
+\setbeamercolor{alerted text}{fg=black}
+\setbeamercolor{example text}{fg=black}
+
+\setbeamercolor*{palette secondary}{fg=black,bg=white} %subsection
+\setbeamercolor*{palette tertiary}{fg=black,bg=white} %section
+
+\setbeamercolor{title}{fg=black}         %Title of presentation
+\setbeamercolor{section title}{fg=black, bg=nyupurple}
+\setbeamercolor{subsection title}{fg=black, bg=white}
+\setbeamercolor{frametitle}{fg=black, bg=white}
+
+\setbeamerfont{frametitle}{size=\small}
+\setbeamerfont{frametitle}{series=\bfseries}
+
+\setbeamertemplate{blocks}[rounded][shadow=false] 
+\setbeamertemplate{items}[triangle]
+\setbeamercolor{item}{fg=black, bg=white}
+
+
+\setbeamercovered{transparent}
+
+\mode
+<all>
